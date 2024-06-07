@@ -41,7 +41,7 @@ def run_youtube_etl():
 
         
     df=pd.DataFrame(video_titles)
-    df.to_csv("s3://youtube-airflow-etl-project/youtube_project.csv",index=False)
+    df.to_csv("s3://your_bucket_name/youtube_project.csv",index=False)
 
    
 
